@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>激活通知</title>
+</head>
+<body>
+
+<a style="display:none" th:href="@{http://www.baidu.com/s(wd=${context})}">http://www.baidu.com/s?wd=<span th:text="${context}"></span><![CDATA[&]]>e=sss</a>
+
+<hr />
+
+<div>
+	<p	style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		感谢您注册 BXB!
+	</p>
+	
+	
+	<p	style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		你的登录名为:<span th:text="${email}"></span>
+	</p>
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		请马上点击以下注册确认链接，激活您的 bxb 帐号！：
+	</p>
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 24px 0; padding: 0">
+		<a  style="background: #83a198; border-radius: 4px; color: #fff; padding: 8px 16px; text-decoration: none; word-break: break-all"
+			th:href="@{http://182.92.238.54:8080/bxb/useractive(email=${email},activecode=${activecode})}" 
+			target="_blank">
+			http://182.92.238.54:8080/bxb/useractive?email=<span th:text="${email}"></span><![CDATA[&]]>activecode=<span th:text="${activecode}"></span></a>
+	</p>
+	<p  style="color: red; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		(该链接在48小时内有效，48小时后需要重新注册)
+	</p>
+	
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		如果通过点击以上链接无法访问，请将该网址复制并粘贴至新的浏览器窗口中。
+	</p>
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		如果您错误地收到了此电子邮件，你无需执行任何操作来取消帐号！此帐号将不会启动。
+	</p>
+	<hr />
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0">
+		这只是一封系统自动发送的邮件，请不要直接回复。 
+	</p>
+	
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0 ; text-align: right">
+		BXB  
+	</p>
+	<p  style="color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; margin: 0 0 10px; padding: 0 ; text-align: right">
+		<span th:text="${date}"></span> 
+	</p>
+</div>
+
+</body>
+</html>

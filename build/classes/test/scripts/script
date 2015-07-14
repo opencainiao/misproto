@@ -1,0 +1,10 @@
+db.item_summary_1.update({},{$set:{"parent_id":"5452dfe4848b6281f34e3f60"}},false,true);
+
+db.keyword.remove({})
+db.keyword.insert({"name":"ab","qp":"aibei","szm":"ab"})
+db.keyword.insert({"name":"abbb","qp":"aibei","szm":"ab"})
+db.keyword.insert({"name":"mm","qp":"aicbei","szm":"acb"})
+db.keyword.insert({"name":"accb","qp":"aibei","szm":"ab"})
+db.keyword.insert({"name":"mmc","qp":"ac","szm":"mamac"})
+db.keyword.insert({"name":"张三","qp":"ac","szm":"mmc"})
+db.keyword.insert({"name":"李四","qp":"mm","szm":"mcmc"})

@@ -1,0 +1,9 @@
+
+
+
+
+db.item_summary_1.insert({parent_id:"54460b435850ec883ef9dc2a",py:"wzhcdjd",title:"万子豪程大酒店",date:"2013-10-21",imgurl:"/20131021/20131021122122_37011.jpg",summary:"万子豪程大酒店位于素有“牛仔名镇”美誉的广州增城新塘城中心，是增城最大型的中式建筑风格的四星级商务酒店。酒店地理位置优越，交通四通八达。"})
+
+db.item_summary_1.insert({parent_id:"54460b435850ec883ef9dc2a",py:"yjndc",title:"壹江南地产",date:"2013-10-21",imgurl:"/20131021/20131021121925_26265.jpg",summary:"根植客都中央文化区CCD，坐落于江南最中心最稀缺的地段，一举囊括千佛塔，客家文化产业基地、嘉应歌剧院文化综合体、东山教育基地、院士广场及亮胜艺术中心等多个自然人文景观"})
+
+db.item_summary_1.insert({parent_id:"54460b435850ec883ef9dc2a",py:"msyd",title:"麦思移动",date:"2013-10-21",imgurl:"/20131021/20131021121746_15339.jpg",summary:"麦思移动娱乐（Max Mobile Entainment Group）集团是一家优秀的移动增值业务及互联网内容提供商（Content Provider）。麦思移动娱乐集团汇集了来自唱片业、娱乐业、传媒业以及电信增值业"})

@@ -1,0 +1,78 @@
+/*-用于文字说明时，断行-*/
+.list-section {
+	word-break: keep-all;
+	word-wrap: break-word;
+	font-family: Microsoft YaHei, 宋体;
+}
+.list-item {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #F5F5F5;
+	border-radius: 15px;
+	box-shadow: 1px 2px 3px #666666;
+	margin: 15px 10px;
+	padding: 5px;
+}
+.list-item a{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-bottom: medium none;
+	display: block;
+	height: 70%;
+	margin: 0 1%;
+	overflow: hidden;
+	padding-bottom: 10px;
+	position: relative;
+	width: 98%;
+}
+.list-item-content-wrapper {
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: inherit;
+	vertical-align: middle;
+}
+.list-item-title {
+	color: #000000;
+	font-size: 16px;
+	white-space: nowrap;
+	height: 27px;
+	line-height: 27px;
+	overflow: hidden;
+	padding-right: 50px;
+	white-space: normal !important;
+}
+.list-item-summary {
+	color: #333333;
+	font-size: 0.8rem;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 3px;
+	max-height: 23px;
+	overflow: hidden;
+}
+.list-item-img {
+	display: block;
+	height: 53%;
+	margin: 5px 0;
+}
+.list-item-img img {
+	max-height: 130px;
+	width: 100% !important;
+}
+
+.list-item-cmt {
+	border-top: 1px solid #CCCCCC;
+	height: 30px;
+	margin-top: 10px;
+	width: 100%;
+}
+.list-item-cmt-text {
+	color: #000000;
+	display: inline-block;
+	font-size: 1rem;
+	height: 30px;
+	line-height: 30px;
+	width: 90%;
+}
+

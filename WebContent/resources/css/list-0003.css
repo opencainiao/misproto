@@ -1,0 +1,74 @@
+
+/*------------------类微信那种， 图片 标题，内容--------------------------*/
+
+body
+{
+    margin: auto;
+    max-width: 640px;
+}
+
+li
+{
+    list-style: none;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+.wx_summary > h3
+{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.list_wxnr_bl > li, .list_wxnr_zfx > li, .list_wxnr_gd > li
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+.list_wxnr_bl > li > a, .list_wxnr_zfx > li > a, .list_wxnr_gd > li > a
+{
+    display: table-row;
+}
+
+.list_wxnr_bl > li > a > *, .list_wxnr_zfx > li > a > *, .list_wxnr_gd > li > a > *
+{
+    display: table-cell;
+}
+
+.list_wxnr_gd > li > a > div:nth-of-type(1)
+{
+    width: 220px;
+}
+
+.list_wxnr_gd > li > a div img
+{
+    width: 100%;
+}
+
+.list_wxnr_bl > li > a > div:nth-of-type(1), .list_wxnr_zfx > li > a > div:nth-of-type(1)
+{
+    width: 60px!important;
+    height: 60px;
+}
+
+.list_wxnr_bl > li > a >div>img
+{
+    width: 100%;
+}
+
+.list_wxnr_zfx > li > a div img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.wx_summary
+{
+    vertical-align: top;
+    padding: 0 10px;
+}

@@ -1,0 +1,250 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd,
+	q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, input, textarea, table, caption, tbody,
+	tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption,
+	figure, footer, header, hgroup, menu, nav, section, summary, time, mark,
+	audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline
+}
+
+body {
+	line-height: 1.5
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block
+}
+
+ol, ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold
+}
+
+del {
+	text-decoration: line-through
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0
+}
+
+em {
+	font-style: normal
+}
+
+input::-ms-clear {
+	display: none
+}
+
+@font-face {
+	font-family: "towericon";
+	src: url(/assets/towericon-59b8a2eb2d5f57348c46e4b76e7b3b48.woff);
+	src: url(/assets/towericon-43a15ff635d9a6c4cd217f8dd9f6b9a9.eot);
+	src: url(/assets/towericon.eot?#iefix) format("embedded-opentype"),
+		url(/assets/towericon-59b8a2eb2d5f57348c46e4b76e7b3b48.woff)
+		format("woff"),
+		url(/assets/towericon-d73876644e9a8e2359fe19f21f1a1ce3.ttf)
+		format("truetype")
+}
+
+.text-overflow {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.break-word {
+	word-break: break-all;
+	word-wrap: break-word
+}
+
+.font-bold {
+	font-weight: bold;
+	font-family: arial, sans-serif
+}
+
+html {
+	overflow-y: scroll
+}
+
+body {
+	background-color: #f2f5e9
+}
+
+body .wrapper {
+	width: 1020px;
+	margin: 0 auto
+}
+
+a {
+	color: #4298ba;
+	text-decoration: none
+}
+
+a:hover {
+	color: #0f769f
+}
+
+#page-compatable {
+	width: 660px;
+	margin: 0 auto
+}
+
+#page-compatable .topbar {
+	width: 660px;
+	margin: 0 auto;
+	padding: 40px 0;
+	*zoom: 1
+}
+
+#page-compatable .topbar:before, #page-compatable .topbar:after {
+	display: table;
+	content: ""
+}
+
+#page-compatable .topbar:after {
+	clear: both;
+	height: 0;
+	visibility: hidden
+}
+
+#page-compatable .topbar .logo {
+	float: left
+}
+
+#page-compatable .topbar .logo a {
+	background: url(logo-dark-not-transparent.png) no-repeat 0 0;
+	display: block;
+	width: 124px;
+	height: 26px;
+	overflow: hidden;
+	text-indent: -9999px
+}
+
+#page-compatable .content {
+	text-align: center;
+	padding: 20px 0;
+	-webkit-text-shadow: 0 1px 0px #fff;
+	-moz-text-shadow: 0 1px 0px #fff;
+	text-shadow: 0 1px 0px #fff
+}
+
+#page-compatable .content h2 {
+	font-size: 28px;
+	color: #333;
+	letter-spacing: 1px;
+	padding: 20px 0;
+	text-align: left
+}
+
+#page-compatable .content h2 em {
+	margin: 0 3px;
+	letter-spacing: 0
+}
+
+#page-compatable .content .upgrade_desc {
+	text-align: left;
+	margin-top: 10px
+}
+
+#page-compatable .content .browser-list {
+	width: 500px;
+	margin: 0 auto;
+	*zoom: 1
+}
+
+#page-compatable .content .browser-list:before, #page-compatable .content .browser-list:after
+	{
+	display: table;
+	content: ""
+}
+
+#page-compatable .content .browser-list:after {
+	clear: both;
+	height: 0;
+	visibility: hidden
+}
+
+#page-compatable .content .browser-list li {
+	float: left;
+	padding: 20px 25px 60px
+}
+
+#page-compatable .content .browser-list a {
+	float:left;
+	padding-top: 30px;
+	height: 130px;
+	color: #7d9c95;
+	font-size: 16px
+}
+
+#page-compatable .content .browser-list a img{
+	float:left;
+}
+
+#page-compatable .content .browser-list a:hover {
+	opacity: 0.9
+}
+
+
+#page-compatable .content .supported {
+	font-size: 14px;
+	color: #666
+}
+
+#page-compatable .content .supported a {
+	margin: 0 4px
+}

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/update_brower.jsp=UTF-8
+encoding//src/com/misproto/common/globalobj/PageVO.java=gbk
+encoding//src/com/misproto/common/util/ValCodeGenerator.java=UTF-8
+encoding//src/com/misproto/modules/global/controller/UsermailController.java=UTF-8
+encoding//src/com/misproto/modules/global/controller/ValidateCodeController.java=UTF-8
+encoding//src/com/misproto/modules/user/controller/AdminLoginController.java=UTF-8
+encoding//src/com/misproto/modules/user/controller/PasswordController.java=UTF-8
+encoding//src/com/misproto/modules/user/controller/UserLoginController.java=UTF-8
+encoding//src/com/misproto/modules/user/controller/UserRegisterController.java=UTF-8
+encoding/<project>=UTF-8
